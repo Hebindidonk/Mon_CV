@@ -1,0 +1,17 @@
+/*Mise en page générale*/
+#liseret, #contenu{
+	display: inline-block;
+	vertical-align: top;
+}
+#liseret{
+	width:25%;
+}
+#contenu{
+	width:70%;
+}
+/*Titre catégories principale*/
+#categories{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}

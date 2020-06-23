@@ -1,15 +1,39 @@
-/*Mise en page générale*/
+
 #liseret, #contenu{
 	display: inline-block;
 	vertical-align: top;
 }
+
 #liseret{
+	background-color: #FECA07;
 	width:25%;
+	height: 1000px;
 }
+
+#liseret h2{
+	background-color: #404040;
+	color: #FECA07;
+	text-transform: uppercase;
+}
+
+#photo{
+	display: flex;
+	border : solid red;
+}
+
+#liseret img{
+	border-radius: 50px;
+	width: 90px;
+	height: 90px;
+	justify-content: center;
+	align-items: center;
+	border: solid blue;
+}
+
 #contenu{
 	width:70%;
 }
-/*Titre catégories principale*/
+
 #categories{
 	display: flex;
 	justify-content: flex-start;

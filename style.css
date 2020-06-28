@@ -1,41 +1,68 @@
-
-#liseret, #contenu{
-	display: inline-block;
-	vertical-align: top;
+/* Police */
+body {
+  font-family: 'Open-Sans', sans-serif;
+} 
+/* Page */
+#moncv{
+	display: flex;
 }
-
+/* Liseret */
 #liseret{
+	display: flex;
+	flex-direction: column;
 	background-color: #FECA07;
 	width:25%;
 	height: 1000px;
 }
-
 #liseret h2{
 	background-color: #404040;
 	color: #FECA07;
 	text-transform: uppercase;
-}
+	text-align: center;
 
-#photo{
+}
+.photo{
+	margin: 10%;
 	display: flex;
-	border : solid red;
+	justify-content: center;
 }
-
 #liseret img{
 	border-radius: 50px;
 	width: 90px;
 	height: 90px;
-	justify-content: center;
-	align-items: center;
-	border: solid blue;
 }
-
+.loisirs{
+	font-size: 30px;
+	color: #404040;
+	display: flex;
+    justify-content: space-around;
+}
+.loisirs i{
+	border: solid #404040;
+	border-radius: 100%;
+	padding: 3%;
+}
+/* Titre*/
+.titre{
+	color:#FECA07;
+}
+h1{
+	text-transform: uppercase;
+}
+.stitre{
+	text-decoration: underline #FECA07;
+}
+/* Contenu */
 #contenu{
 	width:70%;
 }
-
 #categories{
 	display: flex;
-	justify-content: flex-start;
 	align-items: center;
+	border-bottom: solid #FECA07;
+}
+#categories i {
+	font-size: 30px;
+	color :#FECA07;
+	margin : 15px;
 }

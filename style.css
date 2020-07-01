@@ -1,35 +1,59 @@
 /* Police */
 body {
   font-family: 'Open-Sans', sans-serif;
+  margin: 0px;
 } 
 /* Page */
 #moncv{
 	display: flex;
+}
+h1{
+	font: bold 2em "Open Sans", sans-serif;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+p, h3{
+	margin: 0px;
+	padding: 0px;
+}
+h4{
+	margin: 5px 0px 5px;
+}
+td{
+	padding: 15px;
 }
 /* Liseret */
 #liseret{
 	display: flex;
 	flex-direction: column;
 	background-color: #FECA07;
+	margin-right: 5%;
 	width:25%;
-	height: 1000px;
+	height: 1500px;
 }
-#liseret h2{
+#liseret h3{
+	padding: 5px;
 	background-color: #404040;
 	color: #FECA07;
 	text-transform: uppercase;
 	text-align: center;
+	font-weight: lighter;
 
 }
 .photo{
-	margin: 10%;
+	margin-top: 25px;
+	padding: 5%;
 	display: flex;
 	justify-content: center;
 }
 #liseret img{
-	border-radius: 50px;
-	width: 90px;
-	height: 90px;
+	border-radius: 100%;
+	width: 100%;
+	height: 100%;
+	border: solid #DAAF12;
+}
+#liseret ul{
+	list-style-type: none;
 }
 .loisirs{
 	font-size: 30px;

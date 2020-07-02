@@ -16,10 +16,6 @@ p, h3{
 	margin: 0px;
 	padding: 0px;
 }
-p{
-	text-align: justify;
-
-}
 h4{
 	margin: 5px 0px 5px;
 }
@@ -90,6 +86,10 @@ header{
 	height: 100%;
 	border: solid #DAAF12;
 }
+.contact{
+	text-align: center;
+}
+
 #liseret ul{
 	list-style-type: none;
 	padding: 0px 16px;
@@ -139,4 +139,31 @@ header{
 	color :#FECA07;
 	font-size: 10px;
 	margin: 0px 28px 0px 3px;
+}
+/* Petit Ecran */
+@media screen and (max-width: 1280px){
+	header {
+    display: flex;
+    flex-direction: column;
+	}
+	header aside{
+		margin: 0px;
+		width: 100%;
+	}
+	#titre{
+		text-align: center;
+	}
+	#moncv {
+    display: flex;
+    flex-direction: column-reverse;
+	}
+	#contenu{
+		width: auto;
+	}
+	#liseret{
+		width: auto;
+		height: auto;
+		margin :0px;
+	}
+
 }

@@ -101,7 +101,11 @@ header {
     }
 
     #liseret p {
-        padding: 16px 16px 50%;
+        padding: 16px 16px;
+    }
+
+    #liseret section {
+        padding: 32px 0px;
     }
 
 .photo {
@@ -127,6 +131,14 @@ header {
 /* Contenu */
 #contenu {
     width: 64%;
+}
+
+.reco {
+    table-layout: fixed;
+    width: 100%;
+}
+.date_cv {
+    width: 250px;
 }
 
 .categories {
@@ -189,5 +201,9 @@ header {
 
         #liseret p {
             padding: 16px;
+        }
+        
+        #liseret section {
+            padding: 0px;
         }
 }

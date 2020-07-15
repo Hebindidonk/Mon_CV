@@ -132,13 +132,20 @@ header {
 #contenu {
     width: 64%;
 }
+    #contenu ul {
+        list-style-type: none;
+        padding: 0px 20px;
+    }
 
-.reco {
-    table-layout: fixed;
-    width: 100%;
+.fa-dot-circle {
+    color: #5AD66F;
+    margin: 0px 25px 0px 0;
 }
-.date_cv {
-    width: 250px;
+
+.fa-circle {
+    color: #5AD66F;
+    font-size: 10px;
+    margin: 0px 28px 0px 3px;
 }
 
 .categories {
@@ -154,21 +161,26 @@ header {
         text-shadow: -2px 0 #5AD66F, 0 2px #5AD66F, 2px 0 #5AD66F, 0 -2px #5AD66F;
     }
 
+.ligne_cv {
+    display: flex;
+    padding: 15px;
+}
+
 .date_cv {
+    width: 20%;
     display: flex;
     justify-content: flex-start;
 }
 
-.fa-dot-circle {
-    color: #5AD66F;
-    margin: 0px 25px 0px 0;
+.texte_cv {
+    width: 75%;
 }
 
-.fa-circle {
-    color: #5AD66F;
-    font-size: 10px;
-    margin: 0px 28px 0px 3px;
+.reco {
+    table-layout: fixed;
+    width: 100%;
 }
+
 /* Petit Ecran */
 @media screen and (max-width: 1024px) {
     header {
@@ -207,3 +219,23 @@ header {
             padding: 0px;
         }
 }
+
+/* Smartphone */
+@media screen and (max-width: 760px) {
+    #contenu ul {
+        padding: 0px 5px;
+    }
+
+        .ligne_cv i {
+            display:none;
+        }
+    .date_cv {
+        width: 40%;
+    }
+    .loisirs {
+        padding: 20px;
+    }
+
+}
+
+

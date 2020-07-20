@@ -44,6 +44,11 @@ header {
         margin-right: 5%;
         width: 30%;
     }
+
+.photo {
+    padding: 5%;
+    text-align: center;
+}
 /* Titre*/
 .titrenom {
     color: #5AD66F;
@@ -51,10 +56,6 @@ header {
 
 .titreprenom {
     font-weight: lighter;
-}
-
-#titre {
-    margin-bottom: 50px;
 }
 
     #titre p {
@@ -66,7 +67,6 @@ header {
 }
 /* Liseret */
 #liseret {
-    display: flex;
     flex-direction: column;
     background-color: #5AD66F;
     margin-right: 5%;
@@ -107,12 +107,6 @@ header {
     #liseret section {
         padding: 32px 0px;
     }
-
-.photo {
-    margin-top: 25px;
-    padding: 5%;
-    text-align: center;
-}
 
 .loisirs {
     padding: 50px;
@@ -169,11 +163,11 @@ header {
 .date_cv {
     width: 20%;
     display: flex;
-    justify-content: flex-start;
 }
 
 .texte_cv {
     width: 75%;
+    padding: 0px 15px;
 }
 
 .reco {
@@ -195,6 +189,7 @@ header {
 
     #titre {
         text-align: center;
+        margin-bottom: 50px;
     }
 
     #moncv {
@@ -225,17 +220,27 @@ header {
     #contenu ul {
         padding: 0px 5px;
     }
-
-        .ligne_cv i {
-            display:none;
+    .ligne_cv{
+        display:block;
+    }
+      .ligne_cv i {
+        display: none;
         }
-    .date_cv {
-        width: 40%;
+    .texte_cv {
+        padding: 25px;
+        margin-left:auto;
+        margin-right:auto;
     }
     .loisirs {
         padding: 20px;
     }
-
+    .date_cv {
+        text-decoration: underline #5AD66F;
+        font-weight:bolder;
+        font-size: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
